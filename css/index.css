@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+img {
+   width: 100%; 
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 10px;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 400px;
+}
+
+@media (max-width: 767px) {
+  img {
+   width: 90%; 
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 10px;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 290px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  img {
+   width: 100%; 
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 10px;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 400px;
+}
+}
