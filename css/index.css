@@ -6,6 +6,10 @@ h2 {
   margin: 0;
 }
 
+h1{
+  cursor: pointer;
+}
+
 img {
    width: 100%; 
 }
