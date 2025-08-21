@@ -1,4 +1,5 @@
-let container = document.querySelector(`.transactions-container`);
+// контейнеры
+let container = document.querySelector(`.transactions-container`); 
 let result = document.querySelector(`#result`);
 
 // Данные
