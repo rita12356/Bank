@@ -48,9 +48,14 @@ function getRandomInt(min, max) {
 render();
 // Вывод суммы транзакций
 countSum();
-
-
 result.addEventListener(`click`, function() {
+let i = getRandomInt(-100, 100);
+transactions.push(i);
+result.innerHTML = i;
+render();
+});
+
+container.addEventListener(`click`, function() {
 let i = getRandomInt(-100, 100);
 transactions.push(i);
 result.innerHTML = i;
